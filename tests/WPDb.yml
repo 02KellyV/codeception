@@ -1,0 +1,18 @@
+modules:
+    enabled:
+        - Filesystem 
+        WPDb:
+            dsn: 'mysql:host=localhost;dbname=wordpress'
+            user: root
+            password: root
+            dump: tests/_data/wp.sql
+            populate: true
+            cleanup: true
+            url: 'http://localhost:8080'
+            tablePrefix: wp_
+        WordPress:
+            depends: WPDb
+            wpRootFolder: C:\xampp\htdocs
+            adminUsername: admin
+            adminPassword: password
+            adminPath: /wp-admin

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+	<!--[if IE 8]>
+		<html xmlns="http://www.w3.org/1999/xhtml" class="ie8" lang="es-ES">
+	<![endif]-->
+	<!--[if !(IE 8) ]><!-->
+		<html xmlns="http://www.w3.org/1999/xhtml" lang="es-ES">
+	<!--<![endif]-->
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Acceder &lsaquo; OnnaSoft &#8212; WordPress</title>
+	<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' href='http://localhost:8000/wp-admin/load-styles.php?c=0&amp;dir=ltr&amp;load%5B%5D=dashicons,buttons,forms,l10n,login&amp;ver=4.9.5' type='text/css' media='all' />
+<meta name='robots' content='noindex,follow' />
+	<meta name="viewport" content="width=device-width" />
+	<script type="text/javascript">
+addLoadEvent = function(func){if(typeof jQuery!="undefined")jQuery(document).ready(func);else if(typeof wpOnload!='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
+function s(id,pos){g(id).left=pos+'px';}
+function g(id){return document.getElementById(id).style;}
+function shake(id,a,d){c=a.shift();s(id,c);if(a.length>0){setTimeout(function(){shake(id,a,d);},d);}else{try{g(id).position='static';wp_attempt_focus();}catch(e){}}}
+addLoadEvent(function(){ var p=new Array(15,30,15,0,-15,-30,-15,0);p=p.concat(p.concat(p));var i=document.forms[0].id;g(i).position='relative';shake(i,p,20);});
+</script>
+	</head>
+	<body class="login login-action-login wp-core-ui  locale-es-es">
+		<div id="login">
+		<h1><a href="https://es.wordpress.org/" title="Funciona gracias a WordPress" tabindex="-1">Funciona gracias a WordPress</a></h1>
+	<div id="login_error">	<strong>ERROR</strong>: La contraseña que has introducido para el usuario <strong>conferencia</strong> es incorrecta. <a href="http://localhost:8000/wp-login.php?action=lostpassword">¿Has perdido tu contraseña?</a><br />
+</div>
+
+<form name="loginform" id="loginform" action="http://localhost:8000/wp-login.php" method="post">
+	<p>
+		<label for="user_login">Nombre de usuario o dirección de correo<br />
+		<input type="text" name="log" id="user_login" aria-describedby="login_error" class="input" value="conferencia" size="20" /></label>
+	</p>
+	<p>
+		<label for="user_pass">Contraseña<br />
+		<input type="password" name="pwd" id="user_pass" aria-describedby="login_error" class="input" value="" size="20" /></label>
+	</p>
+		<p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> Recuérdame</label></p>
+	<p class="submit">
+		<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Acceder" />
+		<input type="hidden" name="redirect_to" value="http://localhost:8000/wp-admin/" />
+		<input type="hidden" name="testcookie" value="1" />
+	</p>
+</form>
+
+<p id="nav">
+	<a href="http://localhost:8000/wp-login.php?action=lostpassword">¿Has perdido tu contraseña?</a>
+</p>
+
+<script type="text/javascript">
+function wp_attempt_focus(){
+setTimeout( function(){ try{
+d = document.getElementById('user_pass');
+d.value = '';
+d.focus();
+d.select();
+} catch(e){}
+}, 200);
+}
+
+wp_attempt_focus();
+if(typeof wpOnload=='function')wpOnload();
+</script>
+
+	<p id="backtoblog"><a href="http://localhost:8000/">&larr; Volver a OnnaSoft</a></p>
+	
+	</div>
+
+	
+		<div class="clear"></div>
+	</body>
+	</html>
+	
