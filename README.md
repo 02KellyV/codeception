@@ -1,6 +1,6 @@
 # Welcome to 'Cool Testing Stuff'
 
-Hi WP! Lest's edit the **README files** of our github: *https://stackedit.io*
+Hi WP! Let's edit **README files** of our github in: *https://stackedit.io*
 
 
 # Testing Example
@@ -14,7 +14,7 @@ Clone or download https://github.com/kvilla2/codeception.git
 - c:\users\pathx\codeception> *composer install:*
 - edit file **.env:** 
 
->Copy n paste:
+>Copy 'n paste:
 
     WP_ROOT_FOLDER="C:/xampp/htdocs" 
     WP_ADMIN_PATH="/wp-admin"
@@ -51,5 +51,5 @@ or
 
 > OK (5 tests, 5 assertions)
 
-- any number of tests
+- Any number of tests
 
